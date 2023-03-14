@@ -229,7 +229,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "    {\r\n        \"title\": \"Enigma Otiliei\",\r\n        \"author\": \"Ion Barbu\"\r\n    }",
+					"raw": "    {\r\n        \"title\": \"Carte noua\",\r\n        \"author\": \"Ion Barbu\"\r\n    }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -237,7 +237,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/library/1",
+					"raw": "http://localhost:8080/library/books/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -245,6 +245,7 @@
 					"port": "8080",
 					"path": [
 						"library",
+						"books",
 						"1"
 					]
 				}
@@ -261,7 +262,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/library/id/1",
+					"raw": "http://localhost:8080/library/books/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -269,7 +270,7 @@
 					"port": "8080",
 					"path": [
 						"library",
-						"id",
+						"books",
 						"1"
 					]
 				}
