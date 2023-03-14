@@ -204,7 +204,16 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": ""
+					"raw": "http://localhost:8080/library/books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"library",
+						"books"
+					]
 				}
 			},
 			"response": []
@@ -277,7 +286,23 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": ""
+					"raw": "http://localhost:8080/library/books/search?query=Dorinta",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"library",
+						"books",
+						"search"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "Dorinta"
+						}
+					]
 				}
 			},
 			"response": []
